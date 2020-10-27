@@ -8,11 +8,10 @@ namespace StackAndQueueProgram
         {
             Console.WriteLine("Welcome to the Stack and Queue Program");
             LinkedList list = new LinkedList();
-            list.Push(70);
-            list.Push(30);
-            list.Push(56);
+            list.Enqueue(56);
+            list.Enqueue(30);
+            list.Enqueue(70);
             list.Display();
-            list.IsEmpty();
         }
     }
 }
